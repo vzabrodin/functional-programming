@@ -12,4 +12,4 @@ let testTwiceSeq =
 
     sequence |> PrintSequence.printSequence
     sequence |> twiceSeq (fun x -> printf "%d " x)
-    printfn "" |> ignore
+    printfn ""
