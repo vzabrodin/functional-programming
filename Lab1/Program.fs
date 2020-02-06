@@ -1,5 +1,5 @@
 ﻿[<EntryPoint>]
-let main argv =
+let main _: int =
     printfn "# MakeItTwice"
     MakeItTwice.testTwiceSeq
     printfn ""
@@ -35,4 +35,9 @@ let main argv =
     printfn "# CustomMap"
     CustomMap.testCustomMap
     printfn ""
+
+    printfn "# OrderByLastTwoDigits"
+    OrderByLastTwoDigits.testOrderByLastTwoDigits
+    printfn ""
+
     0
